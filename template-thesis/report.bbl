@@ -1,0 +1,8 @@
+\begin{thebibliography}{TeX}
+
+\bibitem[TeX]{texstudio}
+TeXstudio.
+\newblock Integrated writing environment for creating latex documents.
+\newblock \newline\url{http://www.texstudio.org/}.
+
+\end{thebibliography}

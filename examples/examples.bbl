@@ -1,0 +1,49 @@
+\begin{thebibliography}{Wik18b}
+
+\bibitem[Sha18]{sl-eq}
+ShareLaTeX.
+\newblock Aligning equations with amsmath.
+\newblock 2018.
+\newblock
+  \newline\url{https://de.sharelatex.com/learn/Aligning_equations_with_amsmath}\newline
+  Accessed: 4.Jun.2018.
+
+\bibitem[Wik17a]{wb-ref}
+Wikibooks.
+\newblock Latex/labels and cross-referencing.
+\newblock 2017.
+\newblock
+  \newline\url{https://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing}\newline
+  Accessed: 4.Jun.2018.
+
+\bibitem[Wik17b]{wb-list}
+Wikibooks.
+\newblock Latex/list structures.
+\newblock 2017.
+\newblock
+  \newline\url{https://en.wikibooks.org/wiki/LaTeX/List_Structures}\newline
+  Accessed: 4.Jun.2018.
+
+\bibitem[Wik18a]{wb-images}
+Wikibooks.
+\newblock Latex/floats, figures and captions.
+\newblock 2018.
+\newblock
+  \newline\url{https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions}\newline
+  Accessed: 4.Jun.2018.
+
+\bibitem[Wik18b]{wb-eq}
+Wikibooks.
+\newblock Latex/mathematics.
+\newblock 2018.
+\newblock \newline\url{https://en.wikibooks.org/wiki/LaTeX/Mathematics}\newline
+  Accessed: 4.Jun.2018.
+
+\bibitem[Wik18c]{wb-tables}
+Wikibooks.
+\newblock Latex/tables.
+\newblock 2018.
+\newblock \newline\url{https://en.wikibooks.org/wiki/LaTeX/Tables}\newline
+  Accessed: 4.Jun.2018.
+
+\end{thebibliography}

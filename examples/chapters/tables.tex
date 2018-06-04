@@ -1,0 +1,43 @@
+\chapter{Tables}
+Sources: \cite{wb-list} and \cite{wb-tables}
+
+\section{List}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+\begin{itemize}
+	\item item 1
+	\item item 2
+	\item item 3
+	\item item 4
+\end{itemize}
+
+\section{Table}
+
+\subsection{Left - Right - Center}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{| l | r | c |}
+		\textbf{title 1} & \textbf{title 2} & \textbf{title 3} \\
+		\hline
+		item 001 & attribute 1 & 12 \\
+		item 002 & attribute 2 & 1123 \\
+		item 003 & attribute 3 & 87 \\
+		item 004 & attribute 4 & 53 
+	\end{tabular}
+	\caption{A normal table}
+	\label{tab:normal-table}
+\end{table}
+
+\subsection{Left - Left - Long Text}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ l | l | p{10cm} }
+		\textbf{title 1} & \textbf{title 2} & \textbf{title 3} \\
+		\hline
+		item 1 & attribute 1 & Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. \\
+		item 2 & attribute 2 & Diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. \\
+		item 3 & attribute 3 & Lorem ipsum. \\
+		item 4 & attribute 4 & consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam. 
+	\end{tabular}
+	\caption{A table with long text}
+\end{table}
+

@@ -1,0 +1,45 @@
+\documentclass[12pt, a4paper]{scrreprt}
+
+% loading packages and custom commands
+\usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm, headsep=1cm,includeheadfoot]{geometry}
+\input{utils/packages}
+\input{utils/custom}
+\input{utils/codeformatting}
+\input{utils/linkformatting}
+\fancypagestyle{firstpage}{%
+	\fancyhf{}% clear default for head and foot
+	\lhead{**Left Header for just the first page**}
+	\rhead{**Right Header for just the first page**}
+}
+\fancypagestyle{plain}{%
+	\fancyhf{}
+	\fancyhead[R]{HEADER}
+	\fancyfoot[C]{\thepage}
+}
+\pagestyle{plain}% Set page style to plain.
+%\input{utils/glossary}
+
+% path to the figures
+\graphicspath{ {figures/} }
+ 
+\begin{document}
+\tableofcontents
+
+% numbering style of main part
+\pagenumbering{arabic}
+\input{chapters/sections}
+\input{chapters/images}
+\input{chapters/tables}
+\input{chapters/code}
+\input{chapters/equations}
+\input{chapters/definitions}
+\input{chapters/equations}
+\input{chapters/references}
+
+
+%\printglossary
+
+% references
+\bibliography{utils/bibliography}
+
+\end{document}

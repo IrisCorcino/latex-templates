@@ -1,0 +1,44 @@
+\documentclass[11pt, a4paper]{article}
+
+% loading packages and custom commands
+\usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm, headsep=1cm,includeheadfoot]{geometry}
+\usepackage[portuguese]{babel}
+\input{utils/packages}
+\input{utils/custom}
+\input{utils/codeformatting}
+\input{utils/linkformatting}
+\fancypagestyle{firstpage}{%
+	\fancyhf{}% clear default for head and foot
+	\rhead{Universidade Presbiteriana Mackenzie}
+}
+\fancypagestyle{plain}{%
+	\fancyhf{}
+	\fancyhead[R]{HEADER}
+	\fancyfoot[C]{\thepage}
+}
+
+%\input{utils/glossary}
+
+% path to the figures
+\graphicspath{ {figures/} }
+ 
+\begin{document}
+\pagestyle{firstpage}% Set page style to plain.
+\input{sections/info}
+\input{sections/resumo}
+\input{sections/abstract}
+\newpage
+\pagestyle{plain}% Set page style to plain.
+
+\tableofcontents
+\newpage
+
+\input{sections/introducao}
+\input{sections/referencial-teorico}
+\input{sections/metodologia}
+\input{sections/resultado}
+\input{sections/consideracaoes-finais}
+% references
+\bibliography{utils/bibliography}
+
+\end{document}

@@ -1,0 +1,39 @@
+\chapter{Listings}
+\label{ch:listings}
+
+\section{From File}
+
+\subsection{Python}
+\lstinputlisting[language=Python, caption=python code from file, label=lst:python-file]{code/demo/demo.py}
+
+\subsection{C++}
+\lstinputlisting[language=C++, caption=C++ code from file, label=lst:cpp-file]{code/demo/demo.cpp}
+
+\section{Inline}
+\begin{lstlisting}[language=python, caption={python main}]
+def main():
+	print 'Hello, world!'
+
+if __name__ == '__main__':
+	main()
+\end{lstlisting}
+
+\newpage
+
+% from http://wiki.scipy.org/Numpy_Example_List
+\begin{lstlisting}[language=octave, caption={octave example}]
+octave:1> function xdot = f (x, t)
+>
+>  r = 0.25; k = 1.4;
+>  a = 1.5; b = 0.16; c = 0.9; d = 0.8;
+>
+>  xdot(1) = r*x(1)*(1 - x(1)/k) - a*x(1)*x(2)/(1 + b*x(1));
+>  xdot(2) = c*a*x(1)*x(2)/(1 + b*x(1)) - d*x(2);
+>
+> endfunction
+\end{lstlisting}
+
+\begin{lstlisting}[language=bash,caption={bash code}]
+#!/bin/bash
+echo "Hello, world!"
+\end{lstlisting}

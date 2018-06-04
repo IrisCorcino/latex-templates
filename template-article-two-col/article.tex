@@ -1,0 +1,37 @@
+\documentclass[twocolumn, 11pt]{article}
+\usepackage[left=2.5cm,right=2.5cm,top=1.5cm,bottom=1.5cm,includeheadfoot]{geometry}
+
+% loading packages and custom commands
+\input{utils/packages}
+\input{utils/custom}
+
+\input{utils/codeformatting}
+\graphicspath{ {figures/} }
+
+
+\title{TITLE}
+
+\author{
+	\textbf{NAME}\\ 
+	UNIVERSITY\\
+	[0.4em]{\normalsize Supervised by NAME}}
+\date{SEMESTER / YEAR}
+
+\begin{document}
+
+\twocolumn[
+\begin{@twocolumnfalse}
+	\maketitle
+	\begin{abstract}
+		\input{sections/abstract}	
+	\end{abstract}
+\end{@twocolumnfalse}
+]
+
+\input{sections/introduction}
+%\input{sections/...}
+\input{sections/conclusion}
+\clearpage
+\bibliography{utils/bibliography}
+
+\end{document}

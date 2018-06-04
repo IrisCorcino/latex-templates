@@ -1,0 +1,73 @@
+\documentclass[12pt, a4paper]{scrreprt}
+
+% loading packages and custom commands
+\input{utils/packages}
+\input{utils/custom}
+\input{utils/codeformatting}
+\input{utils/linkformatting}
+%\input{utils/glossary}
+
+% path to the figures
+\graphicspath{ {figures/} }
+ 
+\begin{document}
+
+% preface numbering style 	
+\pagenumbering{Roman}
+
+% Title page
+\begin{titlepage}
+	\begin{center}
+	\includegraphics[width=0.4\textwidth]{logos/logo-university.jpg}
+	\hfill
+		\Huge
+		\vfill
+		\textbf{TITLE}
+		\\
+		\normalsize
+		SUBTITLE 
+		\\
+		\vspace{5cm}
+		UNIVERSITY  \\
+		PROJECT / THESIS YEAR \\
+		FIRSTNAME LASTNAME \\
+		Supervised by NAME 
+		\date{\today}
+	\end{center}
+\end{titlepage}
+
+\input{preface/abstract}
+\input{preface/management_summary}
+\input{preface/declaration_of_authorship}
+
+\tableofcontents
+
+% numbering style of main part
+\pagenumbering{arabic}
+
+\input{chapters/task_description}
+\input{chapters/introduction}
+\input{chapters/analysis}
+\input{chapters/implementation}
+\input{chapters/testing}
+\input{chapters/conclusion}
+
+% Appendix
+\appendixpage
+\begin{appendix}
+
+% limitting table of contents depth for appendix
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+
+\input{appendices/manual}
+\input{appendices/project_organization}
+\input{appendices/time_report}
+\input{appendices/personal_reflection}
+\end{appendix}	
+
+%\printglossary
+
+% references
+\bibliography{utils/bibliography}
+
+\end{document}

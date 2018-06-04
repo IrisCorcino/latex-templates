@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: examples.aux
+The style file: alpha.bst
+Database file #1: utils/bibliography.bib
+Warning--empty journal in sl-eq
+Warning--empty journal in wb-ref
+Warning--empty journal in wb-list
+Warning--empty journal in wb-images
+Warning--empty journal in wb-eq
+Warning--empty journal in wb-tables
+You've used 6 entries,
+            2543 wiz_defined-function locations,
+            580 strings with 5259 characters,
+and the built_in function-call counts, 1654 in all, are:
+= -- 162
+> -- 48
+< -- 6
++ -- 15
+- -- 12
+* -- 80
+:= -- 295
+add.period$ -- 24
+call.type$ -- 6
+change.case$ -- 30
+chr.to.int$ -- 3
+cite$ -- 12
+duplicate$ -- 84
+empty$ -- 121
+format.name$ -- 24
+if$ -- 320
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 39
+num.names$ -- 18
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 64
+stack$ -- 0
+substring$ -- 42
+swap$ -- 0
+text.length$ -- 6
+text.prefix$ -- 6
+top$ -- 0
+type$ -- 48
+warning$ -- 6
+while$ -- 12
+width$ -- 8
+write$ -- 80
+(There were 6 warnings)

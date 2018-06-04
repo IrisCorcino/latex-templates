@@ -1,0 +1,18 @@
+% Signature and date
+% Based on snippet by Peter Grill: http://tex.stackexchange.com/questions/48152/dynamic-signature-date-line
+\newcommand*{\SignatureAndDate}[1]{%
+	\par\noindent\makebox[5cm]{\hrulefill} \hfill\makebox[5cm]{\hrulefill}%
+	\par\noindent\makebox[5cm][c]{Place and date}      \hfill\makebox[5cm][c]{#1}%
+}
+
+\newtheorem{definition}{Definition}
+\newtheorem{note}{Remark}
+\newtheorem{example}{Example}
+\newtheorem{proof}{Proof}
+
+%\makeatletter\@addtoreset{chapter}{part}\makeatother
+
+\renewcommand\labelitemi{-}
+
+\bibliographystyle{alpha}
+\makeglossaries
